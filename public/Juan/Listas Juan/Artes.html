@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Juan</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="xestilos Listas.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="perfil">
+        <div id="fecha"></div>
+        <h1>Hola, Juan. </h1>
+        <span>Vamos a cumplir tus metas</span>
+    </div>
+
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="Agregar una tarea">
+        <i id="boton-enter"class="fas fa-plus-circle"></i> 
+        </div>
+    
+    <div class="seccion-tarea">
+        <h3>Estas son tus Tareas Pendientes </h3>
+        <ul id="lista">
+            <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Pintar Mandalas </p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+            </li> 
+        </ul>
+    </div>   
+</div>
+<script src="zlistas.js"></script>
+</body>
+</html>

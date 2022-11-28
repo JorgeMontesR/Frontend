@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Santiago</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="perfil">
+        <div id="fecha"></div>
+        <h1>Hola, Santiago. </h1>
+        <span>Vamos a cumplir tus metas, Recuerda que solo puedes agregar una lista con 64 letras</span>
+    </div>
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="Agregar una lista de tareas" maxlength="64">
+        <i id="boton-enter"class="fas fa-plus-circle"></i> 
+        </div>
+    <div class="seccion-tarea">
+        <h3>Estas son tus listas de tareas. </h3>
+        
+        <ul id="lista">
+            <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Matematicas</p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                <a href="./Listas Santiago/Matematicas.html" class="btn"></a>
+
+            <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Ciencias</p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                <a href="./Listas Santiago/Ciencias.html" class="btn"></a>
+
+            </li>
+            <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Español</p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                <a href="./Listas Santiago/Español.html" class="btn"></a>
+            </li>
+
+                <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> Ed Fisica</p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                <a href="./Listas Santiago/Ed fisica.html" class="btn"></a>
+            </li> 
+        </ul>
+    </div>   
+</div>
+<script src="index.js"></script>
+</body>
+</html>
